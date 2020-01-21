@@ -1,0 +1,26 @@
+{
+  "name": "jirasync",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "ngrok": "ngrok http 8080"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jira-connector": "^3.1.0",
+    "ngrok": "^3.2.5",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.6.3",
+    "standard": "^14.3.1"
+  },
+  "engines": {
+    "node": "11.6.0"
+  }
+}

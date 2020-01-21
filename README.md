@@ -29,6 +29,6 @@ Your app should now be running on [localhost:8080](http://localhost:8080/).
 - put location for attachments @ attachmentsLocation.
 2. make sure that user, which you are using it to connect to jira1/jira2, has appropriate rights on the project, you are syncing
 3. create webhooks on jiras you want to connect.
-3.1. @jira1: create webook that point to localhost:8080/**jira1** _(change localhost:8080 with other name/port, where you run this program)_
-3.2. @jira1: create webook that point to localhost:8080/**jira1** _(change localhost:8080 with other name/port, where you run this program)_
-3.3. for DEV purpose you can use ngrok 
+-  @jira1: create webook that point to localhost:8080/**jira1** _(change localhost:8080 with other name/port, where you run this program)_
+- @jira1: create webook that point to localhost:8080/**jira1** _(change localhost:8080 with other name/port, where you run this program)_
+- for DEV purpose you can use ngrok

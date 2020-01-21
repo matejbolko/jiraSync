@@ -1,0 +1,37 @@
+{
+  "jira1": {
+	"host": "jira1",
+	"protocol": "http",
+	"port": 8080,
+	"basic_auth": {
+	  "username": "jira1_username",
+	  "password": "jira1_password",
+	  "base64":"dXNlcm5hbWU6cGFzc3dvcmQ="
+	}
+  },
+  "jira2": {
+	"host": "jira2",
+	"protocol": "http",
+	"port": 8080,
+	"basic_auth": {
+	  "username": "jira2_username",
+	  "password": "jira2_password",
+	  "base64":"dXNlcm5hbWU6cGFzc3dvcmQ="
+	}
+  },
+  "syncProjects": {
+	"project1": {
+		"jira1": "project_name",
+		"jira2": "project_name"
+	}
+  },
+  "sourceJiraField": {
+	"project1": {
+		"jira1": "customfield_10201",
+		"jira2": "customfield_10215"
+	}
+  },
+  "attachmentsLocation" : {
+	"location": "./attachments/"
+  }
+}
