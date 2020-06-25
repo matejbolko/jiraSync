@@ -8,9 +8,7 @@ Simple app using [Express](https://expressjs.com/) for syncing two jira project,
 - Jira API wrapper [jira-connector](https://www.npmjs.com/package/jira-connector)
 
 ## Running Locally
-
 Make sure you have [Node.js](https://nodejs.org/) installed.
-
 
 ```sh
 git clone git@github.com:matejbolko/jiraSync.git # or clone your own fork
