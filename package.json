@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "jira-connector": "^3.1.0",
     "ngrok": "^3.2.5",
     "node-fetch": "^2.6.0"
